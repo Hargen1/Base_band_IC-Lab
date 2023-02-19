@@ -1,4 +1,3 @@
-# Base_band_IC-Lab
 # Base Band Communication Integrated Circuits Design and Laboratory
-# 4-QAM transmitter
+4-QAM transmitter
 /src : Verilog code of 4-QAM transmitter
