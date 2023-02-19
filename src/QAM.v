@@ -94,6 +94,6 @@ MIXER 	u_MIXER_Q(	.clk(clk_o),
 					.din(DDFS_Q_out),
 					.Mout(MIXER_Q_out) );
 
-assign IFout = MIXER_I_out + MIXER_Q_out;
+assign IFout = MIXER_I_out + ~(MIXER_Q_out) + 1;
 
 endmodule
